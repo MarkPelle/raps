@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+      <html>
+      <head>
+      <body>
+      theOutput
+      </body>
+      </html>
+
+
+
+    <table class="center" style="border: 1px solid black; width:75%;">
+      <tr style="background-color: #AAAAAA; color: white;">
+        <th  colspan="8">
+            <input id="slide" type="range" min="1" max="100" step="1"
+             value="  currentvolume  " class="slider"
+             onchange="updateSlider(this.value)">
+        </th>
+        <th style="background-color: #AAAAAA; color: black; width:50px; height:50px;">
+           <form action="control" method="get"><div id="formbox"><input type="submit"
+            value="  mutesymbol  " name="button"></div></form></th>
+      </tr>
+    </table>
